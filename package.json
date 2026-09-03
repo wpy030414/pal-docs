@@ -1,0 +1,21 @@
+{
+  "name": "oauth2-dingtalk",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "钉钉 OAuth2 适配器，将钉钉登录接口转为标准 OAuth2 端点",
+  "packageManager": "pnpm@11.9.0",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "hono": "^4.10.0",
+    "@hono/node-server": "^1.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "tsx": "^4.20.0",
+    "@types/node": "^24.0.0"
+  }
+}
